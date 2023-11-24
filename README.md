@@ -18,7 +18,7 @@
 
 - 📫 How to reach me **shahidul.ugv.cse@gmail.com**
 
-- ⚡ Fun fact **I love to Code, Writing Poem🖊, Research papers, Reading book📚, Traveling.**
+- ⚡ Fun fact **I love to Competitive Programming, Writing Poem🖊, Research papers, Reading book📚, Traveling.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

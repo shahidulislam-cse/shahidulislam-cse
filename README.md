@@ -12,7 +12,7 @@
 
 - 👯 I’m looking to collaborate on **Research Paper, Kaggle, Program Synthesis, Keras, Tensorflow, Pytorch.😊**
 
-- 🤝 I’m looking for help with **Research Paper, Bangla Cyberbullying Classification, Bangla Spam-email Classification, Peoples Mindset Classification.🇧🇩**
+- 🤝 I’m looking for help with **Open Source Project, Research Paper, Bangla Cyberbullying Classification, Bangla Spam-email Classification, Peoples Mindset Classification.🇧🇩**
 
 - 💬 Ask me about **Machine learning, NLP, Computer Vision, ML Algorithms, Generative AI, Artificial neural networks.**
 

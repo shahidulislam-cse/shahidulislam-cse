@@ -17,6 +17,8 @@
 
 - 🤝 I’m looking for help with **Research Paper, Bangla Cyberbullying Classification, Bangla Spam-email Classification, Peoples Mindset Classification.🇧🇩**
 
+- :dart: Research Interest | Artificial Intelligence | Machine learning | Deep learning | Image Processing and Computer vision | Natural Language Processing | Digital Signal  Processing
+
 - 💬 Ask me about **Machine learning, NLP, Computer Vision, ML Algorithms, Generative AI, Artificial neural networks.**
 
 - 📫 How to reach me **shahidul.ugv.cse@gmail.com**

@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Shahidul Islam Zahid</h1>
 
+<img src="https://github.com/shahidulislam-cse/shahidulislam-cse/blob/main/Shahidul_Islam_GitCover.png" alt="Shahidul Islam Profile ">
+
 👨‍🎓 B.Sc. in Computer Science and Engineering from the **[University of Global Village - UGV, Barisal.](https://ugv.edu.bd/)**
   
 <h3 align="center">A passionate Data Scientist, AI Researcher, Quantum Machine learning Practitioner from Bangladesh.</h3><br>

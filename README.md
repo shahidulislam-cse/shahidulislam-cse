@@ -25,7 +25,9 @@ I'm a passionate AI Engineer and researcher building intelligent systems at the 
 - 🔭 **Currently working on:** LLM fine-tuning, RAG pipelines, vector databases, computer vision, generative AI, signal processing, agentic AI workflows, Docker/Kubernetes, and scalable API design
 - 🌱 **Currently learning:** Quantum Machine Learning, advanced system design, database architecture, and agentic workflow orchestration
 - 👯 **Looking to collaborate on:** Open source projects, research papers, Kaggle competitions, and deep learning with Keras / TensorFlow / PyTorch
-- 🤝 **Global client experience:** USA, Canada, Germany, Australia, France, Italy, Portugal, Brazil, Spain, Russia, China, United Kingdom, Israel
+- 🤝 **Global client collaboration:**
+
+  ![USA](https://img.shields.io/badge/🇺🇸%20USA-555?style=flat-square) ![Canada](https://img.shields.io/badge/🇨🇦%20Canada-555?style=flat-square) ![Germany](https://img.shields.io/badge/🇩🇪%20Germany-555?style=flat-square) ![Australia](https://img.shields.io/badge/🇦🇺%20Australia-555?style=flat-square) ![France](https://img.shields.io/badge/🇫🇷%20France-555?style=flat-square) ![Italy](https://img.shields.io/badge/🇮🇹%20Italy-555?style=flat-square) ![Portugal](https://img.shields.io/badge/🇵🇹%20Portugal-555?style=flat-square) ![Brazil](https://img.shields.io/badge/🇧🇷%20Brazil-555?style=flat-square) ![Spain](https://img.shields.io/badge/🇪🇸%20Spain-555?style=flat-square) ![Russia](https://img.shields.io/badge/🇷🇺%20Russia-555?style=flat-square) ![China](https://img.shields.io/badge/🇨🇳%20China-555?style=flat-square) ![UK](https://img.shields.io/badge/🇬🇧%20UK-555?style=flat-square) ![Israel](https://img.shields.io/badge/🇮🇱%20Israel-555?style=flat-square) ![Bangladesh](https://img.shields.io/badge/🇧🇩%20Bangladesh-555?style=flat-square)
 - 💬 **Ask me about:** Machine Learning, NLP, LLM/RAG, Vector DBs, Computer Vision, ML Algorithms, Generative AI, Artificial Neural Networks
 - ⚡ **Fun fact:** I love problem-solving, writing poems 🖊, reading research papers, and traveling 📚
 
@@ -305,17 +307,25 @@ Topic Query → Fetcher Agent (arXiv API) → Reader Agent (key findings)
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shahidulislam-cse&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahidulislam-cse&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-</div>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=shahidulislam-cse&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahidulislam-cse&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shahidulislam-cse&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=shahidulislam-cse&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </div>
 
+<br>
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahidulislam-cse&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahidulislam-cse&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </div>
 
 ---

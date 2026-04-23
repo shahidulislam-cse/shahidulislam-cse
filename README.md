@@ -113,6 +113,217 @@ I'm a passionate AI Engineer and researcher building intelligent systems at the 
 
 ---
 
+## 💼 Client Business Problem → Solution Projects
+
+> Real-world AI solutions delivered for global clients across industries.  
+> Each project addresses a specific business pain point with a production-grade AI system.
+
+---
+
+### 🟢 Ongoing Projects
+
+---
+
+#### 🔷 01 · Enterprise RAG Knowledge Assistant
+![Status](https://img.shields.io/badge/Status-🟢%20Ongoing-brightgreen?style=flat-square)
+![Client](https://img.shields.io/badge/Client-USA%20SaaS%20Company-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-LangChain%20·%20Pinecone%20·%20GPT--4%20·%20FastAPI-orange?style=flat-square)
+
+**📌 Business Problem:**  
+A SaaS company had thousands of internal documents, policies, and support tickets spread across Confluence, Notion, and Google Drive. Support agents wasted 3–4 hours daily searching for answers manually.
+
+**✅ Solution:**  
+Built a multi-source RAG (Retrieval-Augmented Generation) pipeline that ingests documents into a vector database (Pinecone), retrieves context-aware chunks, and answers employee/customer queries via a chat interface — with source citations.
+
+**⚙️ How It Works:**
+```
+User Query → Embedding Model → Vector Search (Pinecone) 
+→ Top-K Chunk Retrieval → GPT-4 Prompt Assembly → Cited Answer
+```
+
+| Detail | Info |
+|--------|------|
+| 📁 **Repo** | [`🔒 Private — contact for demo`](#) |
+| 🧰 **Tech Stack** | LangChain, Pinecone, OpenAI GPT-4, FastAPI, Docker |
+| 📊 **Outcome** | ~70% reduction in manual search time |
+| 🌍 **Client Region** | USA |
+
+<details>
+<summary>📂 View Architecture Diagram</summary>
+
+```
+┌────────────┐    ┌──────────────┐    ┌─────────────┐
+│  Data Sources│──▶│ Chunking &   │──▶│  Pinecone   │
+│ (PDF/Notion) │    │  Embedding   │    │  Vector DB  │
+└────────────┘    └──────────────┘    └──────┬──────┘
+                                             │ Similarity Search
+                                      ┌──────▼──────┐
+                                      │  GPT-4 LLM  │
+                                      │  + Context  │
+                                      └──────┬──────┘
+                                             │
+                                      ┌──────▼──────┐
+                                      │  FastAPI    │
+                                      │  Chat UI    │
+                                      └─────────────┘
+```
+</details>
+
+---
+
+#### 🔷 02 · AI-Powered Medical Image Diagnosis System
+![Status](https://img.shields.io/badge/Status-🟢%20Ongoing-brightgreen?style=flat-square)
+![Client](https://img.shields.io/badge/Client-German%20HealthTech-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-PyTorch%20·%20YOLOv8%20·%20MONAI%20·%20Django-orange?style=flat-square)
+
+**📌 Business Problem:**  
+A German healthtech startup needed automated detection of pulmonary nodules in chest CT scans to assist radiologists and reduce diagnostic bottlenecks in overloaded hospitals.
+
+**✅ Solution:**  
+Developed a deep learning pipeline using a fine-tuned YOLOv8 + 3D U-Net ensemble for nodule detection and segmentation. Wrapped in a Django REST API with a radiologist dashboard showing heatmaps and confidence scores.
+
+**⚙️ How It Works:**
+```
+DICOM CT Scan → Preprocessing (HU windowing) 
+→ YOLOv8 Detection → 3D U-Net Segmentation 
+→ Confidence Score + Grad-CAM Heatmap → Dashboard Report
+```
+
+| Detail | Info |
+|--------|------|
+| 📁 **Repo** | [`🔒 Private — NDA`](#) |
+| 🧰 **Tech Stack** | PyTorch, YOLOv8, MONAI, Django, PostgreSQL, Docker |
+| 📊 **Outcome** | 94.2% sensitivity on validation set |
+| 🌍 **Client Region** | Germany |
+
+---
+
+#### 🔷 03 · Real-Time Fraud Detection Engine
+![Status](https://img.shields.io/badge/Status-🟢%20Ongoing-brightgreen?style=flat-square)
+![Client](https://img.shields.io/badge/Client-Canadian%20FinTech-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-XGBoost%20·%20Kafka%20·%20FastAPI%20·%20Redis-orange?style=flat-square)
+
+**📌 Business Problem:**  
+A Canadian fintech company was losing revenue to fraudulent transactions. Their rule-based system had a 30%+ false negative rate and couldn't adapt to emerging fraud patterns.
+
+**✅ Solution:**  
+Built a real-time ML fraud detection system using an ensemble of XGBoost + Isolation Forest models served over Kafka event streams. Transactions are scored in under 50ms with explainability via SHAP values sent to a compliance dashboard.
+
+**⚙️ How It Works:**
+```
+Transaction Event → Kafka Stream → Feature Engineering 
+→ XGBoost + Isolation Forest Ensemble 
+→ SHAP Explanation → Risk Score → Block / Allow + Alert
+```
+
+| Detail | Info |
+|--------|------|
+| 📁 **Repo** | [`🔒 Private`](#) |
+| 🧰 **Tech Stack** | XGBoost, Kafka, FastAPI, Redis, SHAP, Docker, Kubernetes |
+| 📊 **Outcome** | Fraud detection latency < 50ms; F1-score 0.97 |
+| 🌍 **Client Region** | Canada |
+
+---
+
+#### 🔷 04 · Multilingual Customer Support Chatbot
+![Status](https://img.shields.io/badge/Status-🟢%20Ongoing-brightgreen?style=flat-square)
+![Client](https://img.shields.io/badge/Client-Australian%20E--Commerce-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-Fine--tuned%20LLaMA3%20·%20LangGraph%20·%20React-orange?style=flat-square)
+
+**📌 Business Problem:**  
+An Australian e-commerce platform serving 12+ countries struggled with multilingual customer support. Human agents couldn't cover all languages 24/7, leading to cart abandonment and poor CSAT scores.
+
+**✅ Solution:**  
+Fine-tuned LLaMA-3 8B on domain-specific e-commerce Q&A data (order tracking, returns, product queries) for 6 languages. Built an agentic workflow with LangGraph that routes complex queries to human agents and handles routine ones autonomously.
+
+**⚙️ How It Works:**
+```
+Customer Message → Language Detection → Fine-tuned LLaMA-3
+→ Intent Classifier (LangGraph Router)
+→ [Routine] Auto-respond  |  [Complex] Human Escalation
+→ Response in Original Language
+```
+
+| Detail | Info |
+|--------|------|
+| 📁 **Repo** | [`🔒 Private`](#) |
+| 🧰 **Tech Stack** | LLaMA-3, LangGraph, FastAPI, React, Redis, Docker |
+| 📊 **Outcome** | 82% query resolution without human agent; CSAT +34% |
+| 🌍 **Client Region** | Australia |
+
+---
+
+#### 🔷 05 · Predictive Crop Yield & Disease Detection System
+![Status](https://img.shields.io/badge/Status-🟡%20In%20Development-yellow?style=flat-square)
+![Client](https://img.shields.io/badge/Client-Bangladesh%20AgriTech-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-CNN%20·%20LSTM%20·%20Satellite%20Imagery%20·%20Django-orange?style=flat-square)
+
+**📌 Business Problem:**  
+Bangladeshi farmers face unpredictable crop losses from plant diseases and climate shifts, with no early warning system. Agricultural advisors cannot physically visit every farm in time.
+
+**✅ Solution:**  
+Building a dual-model system: a CNN-based leaf disease classifier (from mobile photos) and an LSTM-based yield predictor using satellite NDVI + weather time-series data. Deployed as a mobile-friendly web app in Bengali.
+
+**⚙️ How It Works:**
+```
+[Disease]  Leaf Photo → ResNet50 Classifier → Disease Label + Treatment Advice
+[Yield]    Satellite NDVI + Weather Data → LSTM → Predicted Yield (kg/hectare)
+```
+
+| Detail | Info |
+|--------|------|
+| 📁 **Repo** | [`📂 shahidulislam-cse/crop-ai-bd`](https://github.com/shahidulislam-cse) |
+| 🧰 **Tech Stack** | PyTorch, ResNet50, LSTM, Django, PostgreSQL, Leaflet.js |
+| 📊 **Target** | Disease detection accuracy > 92%; Bengali UI |
+| 🌍 **Client Region** | Bangladesh |
+
+---
+
+#### 🔷 06 · Agentic AI Research Paper Summarizer
+![Status](https://img.shields.io/badge/Status-🟡%20In%20Development-yellow?style=flat-square)
+![Client](https://img.shields.io/badge/Client-Open%20Source%20%2F%20Research-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-CrewAI%20·%20Arxiv%20API%20·%20GPT--4o%20·%20Streamlit-orange?style=flat-square)
+
+**📌 Business Problem:**  
+Researchers spend 60–80% of their time reading papers before they can begin actual research. There is no tool that intelligently summarizes, cross-references, and synthesizes findings across dozens of papers.
+
+**✅ Solution:**  
+Building a multi-agent system using CrewAI where specialized agents handle different roles: Fetcher (arXiv API), Reader, Critic, Synthesizer, and Report Writer — producing structured literature review summaries automatically.
+
+**⚙️ How It Works:**
+```
+Topic Query → Fetcher Agent (arXiv API)
+→ Reader Agent (extract key findings)
+→ Critic Agent (identify gaps & contradictions)
+→ Synthesizer Agent (cross-paper themes)
+→ Report Writer Agent → Markdown / PDF Literature Review
+```
+
+| Detail | Info |
+|--------|------|
+| 📁 **Repo** | [`📂 shahidulislam-cse/research-agent`](https://github.com/shahidulislam-cse) |
+| 🧰 **Tech Stack** | CrewAI, OpenAI GPT-4o, arXiv API, Streamlit, Python |
+| 📊 **Target** | Full literature review in < 3 minutes |
+| 🌍 **Audience** | Global research community |
+
+---
+
+### 📬 Have a Business Problem to Solve?
+
+> I build AI systems that solve real problems — from MVPs to production-scale deployments.
+
+| What I Deliver | Examples |
+|----------------|---------|
+| 🤖 **LLM / RAG Systems** | Chatbots, Knowledge Assistants, Document Q&A |
+| 👁️ **Computer Vision** | Object Detection, Medical Imaging, Quality Control |
+| 📊 **Predictive ML** | Fraud Detection, Forecasting, Recommendation Engines |
+| 🔄 **Agentic Workflows** | Multi-agent Automation, Data Pipelines, AI Assistants |
+| ☁️ **MLOps & Deployment** | Docker, Kubernetes, AWS/GCP, CI/CD for ML |
+
+📩 **Let's talk:** [shahidul.ugv.cse@gmail.com](mailto:shahidul.ugv.cse@gmail.com) · [LinkedIn](https://linkedin.com/in/shahidul-ugv/)
+
+---
+
 ## 🌐 Connect With Me
 
 <p align="left">

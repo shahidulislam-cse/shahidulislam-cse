@@ -9,6 +9,7 @@
 
 <img align="right" alt="AI Coding" width="360" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"/>
 
+
 ## 🎓 About Me
 
 B.Sc. in **Computer Science and Engineering** from the
